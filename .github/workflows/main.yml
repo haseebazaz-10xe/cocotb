@@ -36,5 +36,5 @@ jobs:
           echo test, and deploy your project.
 
       # Python Linting
-      - name: Python Linting
-        uses: WhyNotHugo/python-linting@v1.0.0
+      - name: Python flake8 Lint
+        uses: py-actions/flake8@v1.1.0
